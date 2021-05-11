@@ -7,4 +7,8 @@ A Twitter Clone built using React and other JS backend packages
 
 A Django backed ,react front end
 
+## Sources 
+
+- [Django REST](https://www.django-rest-framework.org)
+
 
