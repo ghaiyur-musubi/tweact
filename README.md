@@ -3,6 +3,8 @@
 
 A Twitter Clone built using React and other JS backend packages 
 
-##
+## Introduction 
+
+A Django backed ,react front end
 
 
