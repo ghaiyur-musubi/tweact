@@ -7,6 +7,9 @@ A Twitter Clone built using React and other JS backend packages
 
 A Django backed ,react front end
 
+Link to the API : [click here](https://tweat-api.herokuapp.com)
+Link to the frontend : [click here](https://tweact-frontend.herokuapp.com)
+
 ## Sources 
 
 - [Django REST](https://www.django-rest-framework.org)
