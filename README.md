@@ -13,5 +13,6 @@ A Django backed ,react front end
 ## Sources 
 
 - [Django REST](https://www.django-rest-framework.org)
+- [Axios](https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/)
 
 
