@@ -1,5 +1,5 @@
 from django.contrib.auth.models import User, Group
-from .models import Tweet
+from tweets.models import Tweet
 from rest_framework import viewsets
 from rest_framework import permissions
 from tweets.serializers import UserSerializer, GroupSerializer, TweetSerializer
