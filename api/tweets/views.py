@@ -23,7 +23,7 @@ class GroupViewSet(viewsets.ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
 
-class TweetViewSet(generics.RetrieveUpdateDestroyAPIView):
+class TweetViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows groups to be Tweets or edited.
     """
