@@ -19,5 +19,5 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
 class TweetSerializer(serializers.ModelSerializer):
     class Meta:
         model = Tweet
-        fields = ['user', 'body', 'image', 'like_count',
+        fields = ['id', 'user', 'body', 'image', 'like_count',
                   'created_at']
