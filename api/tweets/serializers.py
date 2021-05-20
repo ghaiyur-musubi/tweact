@@ -1,7 +1,7 @@
 from django.contrib.auth.models import User, Group
 from rest_framework import serializers
 from .models import Tweet
-from rest_framework.authtoken.models import
+from rest_framework.authtoken.models import Token
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
