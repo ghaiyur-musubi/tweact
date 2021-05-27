@@ -15,3 +15,4 @@ A Django backed ,react front end
 
 - [Django REST](https://www.django-rest-framework.org)
 - [Axios](https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/)
+- [Routers](https://www.django-rest-framework.org/api-guide/routers/)
