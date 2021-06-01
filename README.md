@@ -11,6 +11,14 @@ A Django backed ,react front end
 - Link to the API : ![image](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) [here](https://tweact-api.herokuapp.com)
 - Link to the frontend : ![image](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) [here](https://tweact.herokuapp.com)
 
+## API 
+
+The api is Django Rest Framework powered 
+
+![basic](https://user-images.githubusercontent.com/67789350/120354620-3629a200-c320-11eb-8546-574bd3a05609.png)
+
+It is capabale of handling all the possible data rows we require for 
+
 ## Sources
 
 - [Django REST](https://www.django-rest-framework.org)
