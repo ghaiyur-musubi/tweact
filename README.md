@@ -8,7 +8,7 @@ A Twitter Clone built using React and other JS backend packages
 
 A Django backed ,react front end
 
-- Link to the API : ![image](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) [here](https://tweact-api.herokuapp.com)
+- Link to the API : ![image](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) [here](https://tweat-api.herokuapp.com)
 - Link to the frontend : ![image](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) [here](https://tweact.herokuapp.com)
 
 ## Sources
