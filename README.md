@@ -17,7 +17,11 @@ The api is Django Rest Framework powered
 
 ![basic](https://user-images.githubusercontent.com/67789350/120354620-3629a200-c320-11eb-8546-574bd3a05609.png)
 
-It is capabale of handling all the possible data rows we require for 
+It is capabale of handling all the possible data rows we require for tweeter like application 
+
+The possible data points are described as below
+
+![post_tweet](https://user-images.githubusercontent.com/67789350/120354888-79841080-c320-11eb-804d-45b7fe9066a1.png)
 
 ## Sources
 
