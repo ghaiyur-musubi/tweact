@@ -12,6 +12,9 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import django_heroku
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -28,7 +31,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -43,6 +45,9 @@ INSTALLED_APPS = [
     # restframework
     'rest_framework',
     'tweets',
+
+    'cloudinary',
+    'django_filters',
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
@@ -82,10 +87,23 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+# Local sqlite deployement
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
+# Heroku Database
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd2mgd7fetebuop',
+        'USER': 'seinzsmacbambs',
+        'PORT': 5432,
+        'HOST': 'ec2-54-164-241-193.compute-1.amazonaws.com',
+        'PASSWORD': 'c1dd9a539c4974a9bb46bbcb5799234f003c1a40b7ce668c56c200627926fd1c',
     }
 }
 
@@ -134,3 +152,14 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 django_heroku.settings(locals())
+
+cloudinary.config(
+    cloud_name="dqjze7dym",
+    api_key="871749734245614",
+    api_secret="SEkTYDeQqxT0Ezb-z13jY5dI8OM",
+    secure=True
+)
+
+REST_FRAMEWORK = {
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
+}
