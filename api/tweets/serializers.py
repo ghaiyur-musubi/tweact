@@ -17,6 +17,8 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
 
 
 class TweetSerializer(serializers.ModelSerializer):
+    image = serializers.ImageField(allow_null=True)
+
     class Meta:
         model = Tweet
-        fields = ['id', 'user', 'body', 'image', 'created_at']
+        fields = '__all__'

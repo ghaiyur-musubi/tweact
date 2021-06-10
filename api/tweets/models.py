@@ -16,20 +16,24 @@ import cloudinary
 
 
 class Tweet(models.Model):
-    id = models.AutoField(primary_key=True)
-    user = models.ForeignKey(User,
-                             related_name='tweets',
-                             on_delete=models.DO_NOTHING)
-    body = models.CharField(max_length=255)
+    class Meta(object):
+        db_table = 'tweet'
+
+    name = models.CharField(
+        'Name', blank=False, null=False, max_length=14, db_index=True, default='Anonymous'
+    )
+    body = models.CharField(
+        'Body', blank=False, null=False, max_length=140, db_index=True
+    )
     image = CloudinaryField(
-        'Image attached to the tweet', blank=True, null=True)
-    # like_count = models.PositiveIntegerField(
-    #     'Like Count', default=0, blank=True)
-    created_at = models.DateTimeField(auto_now_add=True)
-    # Desc Sort the tweets
-
-    class Meta:
-        ordering = ('-created_at', )
-
-    def __str__(self):
-        return "{0} at {1}: {2}...".format(self.user, self.created_at, self.body[:20])
+        'image', blank=True, null=True
+    )
+    like_count = models.PositiveIntegerField(
+        'Like Count', default=0, blank=True
+    )
+    created_at = models.DateTimeField(
+        'Created Datetime', blank=True, auto_now_add=True
+    )
+    updated_at = models.DateTimeField(
+        'Updated Datetime', blank=True, auto_now=True
+    )
