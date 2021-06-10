@@ -19,7 +19,15 @@ The api is Django Rest Framework powered
 
 It is capabale of handling all the possible data rows we require for tweeter like application 
 
-The possible data points are described as below
+The possible data points are described as below:
+
+- `name`
+- `body`
+- `image`
+- `like_count`
+- `created_at`
+- `updated_at`
+
 
 ![post_tweet](https://user-images.githubusercontent.com/67789350/120354888-79841080-c320-11eb-804d-45b7fe9066a1.png)
 
