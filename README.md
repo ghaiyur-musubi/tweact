@@ -31,6 +31,10 @@ The possible data points are described as below:
 
 ![post_tweet](https://user-images.githubusercontent.com/67789350/120354888-79841080-c320-11eb-804d-45b7fe9066a1.png)
 
+The admin panel is capable of :-
+
+![admin_tweet](https://user-images.githubusercontent.com/67789350/121565011-ae3b4a80-ca39-11eb-8350-bbe2d561b20b.png)
+
 ## Sources
 
 - [Django REST](https://www.django-rest-framework.org)
