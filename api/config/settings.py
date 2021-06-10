@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-ns7%_l=mly81r+*@bjz%i@nw#skwhjsyokcth6v@e$vyzev=*n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['127.0.0.1', 'tweact-api.herokuapp.com']
 
 # Application definition
 
