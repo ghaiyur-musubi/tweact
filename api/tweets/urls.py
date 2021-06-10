@@ -1,16 +1,12 @@
-from django.urls import include, path
-from rest_framework import routers
-from tweets import views
+from django.urls import path
+from . import views
 
-router = routers.DefaultRouter()
-router.register(r'users', views.UserViewSet)
-router.register(r'groups', views.GroupViewSet)
-router.register(r'tweets', views.TweetViewSet)
-
-
-# Wire up our API using automatic URL routing.
-# Additionally, we include login URLs for the browsable API.
 urlpatterns = [
-    path('', include(router.urls)),
-    path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
+    path('', views.TweetList.as_view(), name='tweet_list'),
+    path('add/', views.TweetAdd.as_view(), name='tweet_add'),
+    path('<int:pk>/', views.TweetDetailAndUpdate.as_view(), name='tweet_detail'),
+    path('delete/<int:pk>/', views.TweetDelete.as_view(), name='tweet_delete'),
+    path('likes/add/<int:tweet_id>/', views.tweetLikeAdd, name='tweet_like_add'),
+    path('likes/subtract/<int:tweet_id>/',
+         views.tweetLikeSubtract, name='tweet_like_subtract'),
 ]
