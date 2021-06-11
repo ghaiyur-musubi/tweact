@@ -54,5 +54,71 @@ export default class API
         formData.append("name", name);
         formData.append("body", body);
         formData.append("image", image);
+        const savedTweet = await api
+            .post("/tweets/add/", formData)
+            .then((response) => {
+                return response.formData
+            })
+            .catch((error) => {
+                throw new Error(error)
+            })
+        return savedTweet
+    }
+
+    updateTweet = async (id, name, body, image) =>
+    {
+        const formData = new formData();
+        formData.append("id", id);
+        formData.append("name", name);
+        formData.append("body", body);
+        formData.append("image", image);
+        const updatedTweet = await api
+            .put("/tweets/" + id + "/", formData)
+            .then((response) => 
+            {
+                return response.data
+            })
+            .catch((error) => 
+            {
+                throw new Error(error)
+            })
+        return updatedTweet
+    }
+
+    deleteTweet = async (id) =>
+    {
+        const response = await api
+            .delete("/tweets/delete/" + id + "/")
+            .then((response) =>
+            {
+                return response.data
+            })
+            .catch((error) => 
+            {
+                throw new Error(error)
+            })
+        return response
+    }
+    likeAddTweet = async (id) => {
+        const tweet = await api
+            .get("/tweets/likes/add/" + id + "/")
+            .then((response) => {
+                return response.data
+            })
+            .catch((error) => {
+                throw new Error(error)
+            })
+        return tweet
+    }
+    likeSubtractTweet = async (id) => {
+        const tweet = await api
+            .get("/tweets/likes/subtract/" + id + "/")
+            .then((response) => {
+                return response.data
+            })
+            .catch((error) => {
+                throw new Error(error)
+            })
+        return tweet
     }
 }
