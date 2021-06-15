@@ -40,3 +40,4 @@ The admin panel is capable of :-
 - [Axios](https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/)
 - [Routers](https://www.django-rest-framework.org/api-guide/routers/)
 - [Re-ducks](https://github.com/alexnm/re-ducks)
+- [Redux vs and the ducks](https://medium.com/@mewc.dev/comparing-redux-ducks-re-ducks-the-best-quacking-way-to-build-apps-90de4f451629)
