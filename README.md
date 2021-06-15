@@ -41,3 +41,5 @@ The admin panel is capable of :-
 - [Routers](https://www.django-rest-framework.org/api-guide/routers/)
 - [Re-ducks](https://github.com/alexnm/re-ducks)
 - [Redux vs and the ducks](https://medium.com/@mewc.dev/comparing-redux-ducks-re-ducks-the-best-quacking-way-to-build-apps-90de4f451629)
+- [Reducks an alternative](https://www.youtube.com/watch?v=8ecXdgwn3Fw)
+- [redux thunk](https://medium.com/@notrab/getting-started-with-create-react-app-redux-react-router-redux-thunk-d6a19259f71f)
