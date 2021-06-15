@@ -1,4 +1,4 @@
-NAME - React - Django Twitter
+## NAME - React - Django Twitter
 * [w][06/18] Reducks pattern
 * * [w][6/15] Read Up documentation - understand flow
 * * [ ][6/16] Create Tweets pattern actions , operations
@@ -7,6 +7,8 @@ NAME - React - Django Twitter
 * [_][06/23] Create templates 
 * * [ ][6/21] Home and Index
 * * [ ][6/23] Edit
+
+#### Legend
 ------------------
 [ ] - Not Done
 [w] - Work in progress
