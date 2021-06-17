@@ -1,3 +1,4 @@
+// Add the tweet action 
 export const ADD_TWEET = "ADD_TWEET";
 export const addTweetAction = (tweets) => {
     return {
@@ -5,6 +6,8 @@ export const addTweetAction = (tweets) => {
         payload: tweets
     }
 }
+
+// Fetch the tweet actions 
 export const FETCH_TWEET = "FETCH_TWEET";
 export const fetchTweetsAction = (tweets) => {
     return {
@@ -12,6 +15,8 @@ export const fetchTweetsAction = (tweets) => {
         payload: tweets
     }
 }
+
+// Delete tweet actions
 export const DELETE_TWEET = "DELETE_TWEET";
 export const deleteTweetAction = (tweets) => {
     return {
