@@ -1,11 +1,11 @@
 ## NAME - React - Django Twitter
 * [w][06/18] Reducks pattern
-* * [w][6/15] Read Up documentation - understand flow
-* * [ ][6/16] Create Tweets pattern actions , operations
-* * [ ][6/17] Create Tweets pattern reducers and selectors
-* * [ ][6/18] Debug and improve 
-* [_][06/23] Create templates 
-* * [ ][6/21] Home and Index
+* * [x][6/15] Read Up documentation - understand flow
+* * [x][6/16] Create Tweets pattern actions , operations
+* * [x][6/17] Create Tweets pattern reducers and selectors
+* * [x][6/18] Debug and improve 
+* [w][06/23] Create templates 
+* * [w][6/21] Home and Index
 * * [ ][6/23] Edit
 
 #### Legend
