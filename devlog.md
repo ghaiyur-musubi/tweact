@@ -1,5 +1,5 @@
 ## NAME - React - Django Twitter
-* [w][06/18] Reducks pattern
+* [x][06/18] Reducks pattern
 * * [x][6/15] Read Up documentation - understand flow
 * * [x][6/16] Create Tweets pattern actions , operations
 * * [x][6/17] Create Tweets pattern reducers and selectors
