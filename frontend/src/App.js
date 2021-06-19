@@ -1,17 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import useState from 'react';
-import axios from 'axios';
+import React from 'react'
+import Router from './Router'
+import "./assets/style.css"
 
 function App() {
-  const [tweets ,setTweets] = useState('')
-  axios.get('')
   return (
-    <div className="App">
-      <h1> T W E A C T </h1>
-      <ul>
-
-      </ul>
+    <div class="container">
+      <Router />
     </div>
   );
 }

@@ -24,7 +24,7 @@ export const deleteTweet = (id) => {
         return api.deleteTweet(id)
             .then((response) => {
                 const prevTweets = getState().tweets.list
-                const nextTweets = prevTweets.filter(tweet = > tweet.id !== id)
+                const nextTweets = prevTweets.filter(tweet => tweet.id !== id)
                 dispatch(deleteTweetAction(nextTweets))
             }).catch((error) => {
                 alert("Failed to connect to API to Delete a Tweet")
