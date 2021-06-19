@@ -7,7 +7,7 @@
 * [x][06/18] Router
 * * [x][6/18] Router jsx
 * [w][06/23] Create templates 
-* * [w][6/21] Home and Index
+* * [x][6/21] Home and Index
 * * [ ][6/23] Edit
 
 #### Legend
