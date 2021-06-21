@@ -62,3 +62,5 @@ const PostTweet = ({ tweet }) => {
         </div>
     );
 };
+
+export default PostTweet;
