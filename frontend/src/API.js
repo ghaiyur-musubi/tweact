@@ -7,7 +7,7 @@ if (process.env.REACT_APP_ENVIRONMENT && process.env.REACT_APP_ENVIRONMENT === "
 }
 else
 {
-    baseURL = "https://127.0.0.1:8000";
+    baseURL = "https://tweact-api.herokuapp.com";
 }
 
 const api = axios.create
