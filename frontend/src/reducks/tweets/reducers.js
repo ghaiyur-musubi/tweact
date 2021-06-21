@@ -1,5 +1,5 @@
 import * as Actions from './actions';
-import initialState from '../store/initalState';
+import initialState from '../store/initialState';
 
 export const TweetsReducer = (state = initialState.tweets, action) => {
     switch (action.type) {
