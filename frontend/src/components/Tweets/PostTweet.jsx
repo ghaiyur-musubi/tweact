@@ -28,7 +28,7 @@ const PostTweet = ({ tweet }) => {
         if (tweet && tweet.id) {
             dispatch(updateTweet(tweet.id, name, body, image));
         } else {
-            dispatch(addTweet(name, body.image));
+            dispatch(addTweet(name, body,image));
             setName("");
             setImage([]);
             setBody("");
