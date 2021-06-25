@@ -57,7 +57,7 @@ export default class API
         const savedTweet = await api
             .post("/tweets/add/", formData)
             .then((response) => {
-                return response.formData
+                return response.data
             })
             .catch((error) => {
                 throw new Error(error)
