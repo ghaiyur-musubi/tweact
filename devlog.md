@@ -9,9 +9,9 @@
 * [x][06/23] Create templates 
 * * [x][6/21] Home and Index
 * * [x][6/23] Edit
-* * [w][07/02] Edit Debug
-*  [w][7/30] Break down flow 
-*  [][7/2] Fix Error
+*  [w][07/02] Edit Debug
+* * [w][7/30] Break down flow 
+* * [][7/2] Fix Error
 
 #### Legend
 ------------------
