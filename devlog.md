@@ -6,9 +6,12 @@
 * * [x][6/18] Debug and improve 
 * [x][06/18] Router
 * * [x][6/18] Router jsx
-* [w][06/23] Create templates 
+* [x][06/23] Create templates 
 * * [x][6/21] Home and Index
-* * [ ][6/23] Edit
+* * [x][6/23] Edit
+* * [w][07/02] Edit Debug
+*  [w][7/30] Break down flow 
+*  [][7/2] Fix Error
 
 #### Legend
 ------------------
