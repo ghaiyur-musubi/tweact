@@ -67,7 +67,7 @@ export default class API
 
     updateTweet = async (id, name, body, image) =>
     {
-        const formData = new formData();
+        const formData = new FormData();
         formData.append("id", id);
         formData.append("name", name);
         formData.append("body", body);
