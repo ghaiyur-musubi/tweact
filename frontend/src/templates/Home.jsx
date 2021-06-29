@@ -21,7 +21,7 @@ const Home = () => {
     <div class="main">
       <div class="main-header">
         <img src={LogoTwitterblue} class="logo" />
-        <h1>Home</h1>
+        <h1>Tweact</h1>
       </div>
       <PostTweet />
       <div class="ditch"></div>
