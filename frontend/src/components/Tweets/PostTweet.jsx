@@ -2,6 +2,9 @@ import React, { useEffect } from "react";
 import SampleIcon from "../../assets/img/sample-icon.jpg";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Button from '@material-ui/core/Button';
 
 import { addTweet, updateTweet } from "../../reducks/tweets/operations";
 
@@ -55,6 +58,7 @@ const PostTweet = ({ tweet }) => {
             <input class="form-control form-control-sm" name="image" type="file" onChange={inputImage} />
           </div>
           <button onClick={addTweetButton} class="btn" type="submit">
+            <Button onClick={({addTweetButton}) => { alert('clicked') }}>Tweet</Button>
             Tweet
           </button>
         </div>

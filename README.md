@@ -34,7 +34,7 @@ The admin panel is capable of :-
 
 ![admin_tweet](https://user-images.githubusercontent.com/67789350/121565011-ae3b4a80-ca39-11eb-8350-bbe2d561b20b.png)
 
-## Front End 
+## Front End
 
 ![frontned](https://user-images.githubusercontent.com/67789350/122795565-152eee00-d2db-11eb-8b54-b2e6f8b327a6.png)
 
@@ -47,3 +47,4 @@ The admin panel is capable of :-
 - [Redux vs and the ducks](https://medium.com/@mewc.dev/comparing-redux-ducks-re-ducks-the-best-quacking-way-to-build-apps-90de4f451629)
 - [Reducks an alternative](https://www.youtube.com/watch?v=8ecXdgwn3Fw)
 - [redux thunk](https://medium.com/@notrab/getting-started-with-create-react-app-redux-react-router-redux-thunk-d6a19259f71f)
+- [Material UI](https://material-ui.com/components/buttons/#text-buttons)
